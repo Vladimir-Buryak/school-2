@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>converter</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="block__converter">
+        <div class="block__operation">
+            <div class="elem__operation">
+                <h1 class="elem__operation-title">Валютний калькулятор</h1>
+                <div class="elem__operation-sum">
+                    <label for="sum">Введіть суму в будь-якій валюті: </label>
+                    <input id="sum">
+                </div>
+                <div class="elem__operation-rate">
+                    <label for="exchange-rate">Введіть курс по відношенню до гривні:</label>
+                    <input id="exchange-rate">
+                </div>
+                <div class="elem__operation-buttons">
+                    <button class="operation-count">Порахувати</button>
+                    <button class="operation-delete">Очистити</button>
+                </div>
+            </div>
+        </div>
+        <div class="block__result">
+            <div class="elem__result">
+                <div class="result">
+                    <p>Сума в гривнях = <span class="amount"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="javascript.js"></script>
+</body>
+</html>

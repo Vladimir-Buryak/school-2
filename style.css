@@ -1,0 +1,93 @@
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 20px;
+}
+
+/* ============== block__converter ================== */
+
+.block__converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+
+.block__operation {
+    border-block: 7px solid blue;
+}
+
+.elem__operation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 120px;
+}
+
+.elem__operation-title {
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    margin: 0 0 20px 0;
+}
+
+.elem__operation-sum,
+.elem__operation-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+.block__result {
+    border-bottom: 7px solid blue;
+}
+
+label[for="exchange-rate"],
+label[for="sum"] {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.elem__operation-buttons {
+    margin: 15px 0;
+}
+
+.elem__operation-buttons button {
+    font-size: 20px;
+}
+
+.block__result {
+    width: 969.19px;
+}
+
+.elem__result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elem__result p {
+    font-size: 36px;
+    color: blue;
+    margin: 15px 0;
+}
+
+
+
+
+
